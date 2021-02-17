@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		327E6C8125DD38BA00422AAE /* SpotifySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 327E6C7F25DD38BA00422AAE /* SpotifySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32AB7AA925DD65E2003D1CC1 /* SpotifyHelper+Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB7AA625DD65E2003D1CC1 /* SpotifyHelper+Converters.swift */; };
-		32AB7AAA25DD65E2003D1CC1 /* SpotifyHelper+Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB7AA825DD65E2003D1CC1 /* SpotifyHelper+Structs.swift */; };
-		32AB7AAB25DD65E2003D1CC1 /* SpotifyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB7AA725DD65E2003D1CC1 /* SpotifyHelper.swift */; };
 		32E51FC025DD3C970072FDBE /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E51FBF25DD3C970072FDBE /* SpotifyiOS.framework */; };
 		57590ECC68BA816A2A8C33F0 /* libPods-SpotifySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ED0008C49E562CACF10A20 /* libPods-SpotifySDK.a */; };
 /* End PBXBuildFile section */
@@ -19,9 +16,6 @@
 		327E6C7C25DD38BA00422AAE /* SpotifySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpotifySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		327E6C7F25DD38BA00422AAE /* SpotifySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotifySDK.h; sourceTree = "<group>"; };
 		327E6C8025DD38BA00422AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32AB7AA625DD65E2003D1CC1 /* SpotifyHelper+Converters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SpotifyHelper+Converters.swift"; path = "/Users/morvaymac/Documents/Libraries/SpotifySDK/SpotifySDK/SpotifyHelper+Converters.swift"; sourceTree = "<absolute>"; };
-		32AB7AA725DD65E2003D1CC1 /* SpotifyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpotifyHelper.swift; path = /Users/morvaymac/Documents/Libraries/SpotifySDK/SpotifySDK/SpotifyHelper.swift; sourceTree = "<absolute>"; };
-		32AB7AA825DD65E2003D1CC1 /* SpotifyHelper+Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SpotifyHelper+Structs.swift"; path = "/Users/morvaymac/Documents/Libraries/SpotifySDK/SpotifySDK/SpotifyHelper+Structs.swift"; sourceTree = "<absolute>"; };
 		32E51FBF25DD3C970072FDBE /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
 		3855CD4B07EF7D7AA68B6A97 /* Pods-SpotifySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifySDK.release.xcconfig"; path = "Target Support Files/Pods-SpotifySDK/Pods-SpotifySDK.release.xcconfig"; sourceTree = "<group>"; };
 		967A49C102A91860059F7CF3 /* Pods-SpotifySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifySDK.debug.xcconfig"; path = "Target Support Files/Pods-SpotifySDK/Pods-SpotifySDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,9 +56,6 @@
 		327E6C7E25DD38BA00422AAE /* SpotifySDK */ = {
 			isa = PBXGroup;
 			children = (
-				32AB7AA725DD65E2003D1CC1 /* SpotifyHelper.swift */,
-				32AB7AA625DD65E2003D1CC1 /* SpotifyHelper+Converters.swift */,
-				32AB7AA825DD65E2003D1CC1 /* SpotifyHelper+Structs.swift */,
 				327E6C7F25DD38BA00422AAE /* SpotifySDK.h */,
 				327E6C8025DD38BA00422AAE /* Info.plist */,
 			);
@@ -195,9 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32AB7AA925DD65E2003D1CC1 /* SpotifyHelper+Converters.swift in Sources */,
-				32AB7AAB25DD65E2003D1CC1 /* SpotifyHelper.swift in Sources */,
-				32AB7AAA25DD65E2003D1CC1 /* SpotifyHelper+Structs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
