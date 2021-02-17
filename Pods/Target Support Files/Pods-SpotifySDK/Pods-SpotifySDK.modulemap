@@ -1,0 +1,6 @@
+module Pods_SpotifySDK {
+  umbrella header "Pods-SpotifySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

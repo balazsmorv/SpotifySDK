@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: 382a7d9e76c622d03aa9d56366593b9ad5f1a893
+PODS:
+  - RxRelay (6.0.0):
+    - RxSwift (= 6.0.0)
+  - RxSwift (6.0.0)
+
+DEPENDENCIES:
+  - RxRelay (= 6.0.0)
+  - RxSwift (= 6.0.0)
+
+SPEC REPOS:
+  trunk:
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  RxRelay: 8d593be109c06ea850df027351beba614b012ffb
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+
+PODFILE CHECKSUM: d85bcf35b8da4c914b8b66cc4bdbfedbf416e32a
 
 COCOAPODS: 1.10.1

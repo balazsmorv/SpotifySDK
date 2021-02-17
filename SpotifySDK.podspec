@@ -27,9 +27,12 @@ s.source = { :git => "https://github.com/balazsmorv/SpotifySDK.git",
 #s.framework = "UIKit"
 #s.dependency 'Alamofire', '~> 4.7'
 #s.dependency 'MBProgressHUD', '~> 1.1.0'
+s.dependency 'RxSwift', '~> 6.0.0'
+s.dependency 'RxRelay', '~> 6.0.0'
+
 
 # 8
-s.source_files = "SpotifyiOS.framework/Versions/A/Headers/*{.h}"
+s.source_files = "SpotifySDK/*{.swift}"
 
 # 9
 #s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
