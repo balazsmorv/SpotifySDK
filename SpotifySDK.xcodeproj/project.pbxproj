@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327E6C8125DD38BA00422AAE /* SpotifySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 327E6C7F25DD38BA00422AAE /* SpotifySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32E51FC025DD3C970072FDBE /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E51FBF25DD3C970072FDBE /* SpotifyiOS.framework */; };
+		57590ECC68BA816A2A8C33F0 /* libPods-SpotifySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ED0008C49E562CACF10A20 /* libPods-SpotifySDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		327E6C7C25DD38BA00422AAE /* SpotifySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpotifySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		327E6C7F25DD38BA00422AAE /* SpotifySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotifySDK.h; sourceTree = "<group>"; };
+		327E6C8025DD38BA00422AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E51FBF25DD3C970072FDBE /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		3855CD4B07EF7D7AA68B6A97 /* Pods-SpotifySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifySDK.release.xcconfig"; path = "Target Support Files/Pods-SpotifySDK/Pods-SpotifySDK.release.xcconfig"; sourceTree = "<group>"; };
+		967A49C102A91860059F7CF3 /* Pods-SpotifySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifySDK.debug.xcconfig"; path = "Target Support Files/Pods-SpotifySDK/Pods-SpotifySDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F1ED0008C49E562CACF10A20 /* libPods-SpotifySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpotifySDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327E6C7925DD38BA00422AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E51FC025DD3C970072FDBE /* SpotifyiOS.framework in Frameworks */,
+				57590ECC68BA816A2A8C33F0 /* libPods-SpotifySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327E6C7225DD38BA00422AAE = {
+			isa = PBXGroup;
+			children = (
+				327E6C7E25DD38BA00422AAE /* SpotifySDK */,
+				327E6C7D25DD38BA00422AAE /* Products */,
+				6583AAC51AC8ABE22ED27253 /* Pods */,
+				B9C9A6390AA97626F32CBCF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		327E6C7D25DD38BA00422AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327E6C7C25DD38BA00422AAE /* SpotifySDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327E6C7E25DD38BA00422AAE /* SpotifySDK */ = {
+			isa = PBXGroup;
+			children = (
+				327E6C7F25DD38BA00422AAE /* SpotifySDK.h */,
+				327E6C8025DD38BA00422AAE /* Info.plist */,
+			);
+			path = SpotifySDK;
+			sourceTree = "<group>";
+		};
+		6583AAC51AC8ABE22ED27253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				967A49C102A91860059F7CF3 /* Pods-SpotifySDK.debug.xcconfig */,
+				3855CD4B07EF7D7AA68B6A97 /* Pods-SpotifySDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9C9A6390AA97626F32CBCF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32E51FBF25DD3C970072FDBE /* SpotifyiOS.framework */,
+				F1ED0008C49E562CACF10A20 /* libPods-SpotifySDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		327E6C7725DD38BA00422AAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327E6C8125DD38BA00422AAE /* SpotifySDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		327E6C7B25DD38BA00422AAE /* SpotifySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327E6C8425DD38BA00422AAE /* Build configuration list for PBXNativeTarget "SpotifySDK" */;
+			buildPhases = (
+				6E720C4D05E49FA1E2D7C9C3 /* [CP] Check Pods Manifest.lock */,
+				327E6C7725DD38BA00422AAE /* Headers */,
+				327E6C7825DD38BA00422AAE /* Sources */,
+				327E6C7925DD38BA00422AAE /* Frameworks */,
+				327E6C7A25DD38BA00422AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifySDK;
+			productName = SpotifySDK;
+			productReference = 327E6C7C25DD38BA00422AAE /* SpotifySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327E6C7325DD38BA00422AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Morvay Mac";
+				TargetAttributes = {
+					327E6C7B25DD38BA00422AAE = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = 327E6C7625DD38BA00422AAE /* Build configuration list for PBXProject "SpotifySDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 327E6C7225DD38BA00422AAE;
+			productRefGroup = 327E6C7D25DD38BA00422AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327E6C7B25DD38BA00422AAE /* SpotifySDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		327E6C7A25DD38BA00422AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E720C4D05E49FA1E2D7C9C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpotifySDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		327E6C7825DD38BA00422AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		327E6C8225DD38BA00422AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		327E6C8325DD38BA00422AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		327E6C8525DD38BA00422AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967A49C102A91860059F7CF3 /* Pods-SpotifySDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RTG93BKR37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = SpotifyiOS.framework/Versions/A/Headers;
+				INFOPLIST_FILE = SpotifySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = bitraptors.SpotifySDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		327E6C8625DD38BA00422AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3855CD4B07EF7D7AA68B6A97 /* Pods-SpotifySDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RTG93BKR37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = SpotifyiOS.framework/Versions/A/Headers;
+				INFOPLIST_FILE = SpotifySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = bitraptors.SpotifySDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		327E6C7625DD38BA00422AAE /* Build configuration list for PBXProject "SpotifySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327E6C8225DD38BA00422AAE /* Debug */,
+				327E6C8325DD38BA00422AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327E6C8425DD38BA00422AAE /* Build configuration list for PBXNativeTarget "SpotifySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327E6C8525DD38BA00422AAE /* Debug */,
+				327E6C8625DD38BA00422AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327E6C7325DD38BA00422AAE /* Project object */;
+}
