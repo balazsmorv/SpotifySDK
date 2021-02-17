@@ -1,47 +1,24 @@
 Pod::Spec.new do |s|
 
-# 1
-s.platform = :ios
-s.ios.deployment_target = '11.0'
-s.name = "SpotifySDK"
-s.summary = "SpotifySDK lets you use the Spotify SDK as a Cocoapod"
-s.requires_arc = true
+   s.name         = "SpotifySDK"
+   s.version      = "1.0.0"
+   s.summary      = "Spotify SDK for iOS"
+   s.description  = <<-DESC
+   The Spotify iOS SDK allows your iOS application to authenticate users, as well as interact and always stay in sync with the main Spotify application running on the user’s device in the background.
+                    DESC
 
-# 2
-s.version = "0.1.3"
+   s.homepage = "https://developer.spotify.com/documentation/ios/"
+   s.license  = { :type => "MIT", :file => "Licenses/MPMessagePack-LICENSE.md" }
+   s.authors  = { "jackfreeman" => "jackfreeman@google.com", "Arielle Vaniderstine" => "hack@ariari.io", "Konstantinos Karagiannis" => "konstantinosk@spotify.com" }
 
-# 3
-s.license = { :type => "MIT", :file => "LICENSE" }
+   s.platform              = :ios
+   s.ios.deployment_target = '9.0'
 
-# 4 - Replace with your name and e-mail address
-s.author = { "Morvay Balazs Tibor" => "balazsmorvay@yahoo.com" }
+   s.source = { :git => "https://github.com/spotify/ios-sdk.git", :tag => "v#{s.version}" }
 
-# 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/balazsmorv/SpotifySDK"
+   s.source_files        = 'SpotifyiOS.framework/Versions/A/Headers/*{.h}'
+   s.public_header_files = 'SpotifyiOS.framework/Versions/A/Headers/*{.h}'
+   s.vendored_frameworks = 'SpotifyiOS.framework'
+   s.exclude_files       = "DemoProjects"
 
-# 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/balazsmorv/SpotifySDK.git",
-             :tag => "#{s.version}" }
-
-# 7
-#s.framework = "UIKit"
-#s.dependency 'Alamofire', '~> 4.7'
-#s.dependency 'MBProgressHUD', '~> 1.1.0'
-
-
-
-# 8
-s.source_files = "SpotifyiOS.framework/Versions/A/Headers/*{.h}"
-s.public_header_files = "SpotifyiOS.framework/Versions/A/Headers/*{.h}"
-s.vendored_frameworks = "SpotifyiOS.framework"
-
-
-
-
-# 9
-#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
-# 10
-s.swift_version = "5.2"
-
-end
+ end
