@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		327E6C8125DD38BA00422AAE /* SpotifySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 327E6C7F25DD38BA00422AAE /* SpotifySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32AA4A1A25DEA4A900103494 /* SpotifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E6C7C25DD38BA00422AAE /* SpotifySDK.framework */; };
 		57590ECC68BA816A2A8C33F0 /* libPods-SpotifySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ED0008C49E562CACF10A20 /* libPods-SpotifySDK.a */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AA4A1A25DEA4A900103494 /* SpotifySDK.framework in Frameworks */,
 				57590ECC68BA816A2A8C33F0 /* libPods-SpotifySDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
