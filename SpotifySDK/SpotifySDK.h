@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <SpotifySDK/SpotifyiOS.h>
 
 //! Project version number for SpotifySDK.
 FOUNDATION_EXPORT double SpotifySDKVersionNumber;
