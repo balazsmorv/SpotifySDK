@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
    s.name         = "SpotifySDK"
-   s.version      = "1.0.3"
+   s.version      = "1.0.4"
    s.summary      = "Spotify SDK for iOS"
    s.description  = <<-DESC
    The Spotify iOS SDK allows your iOS application to authenticate users, as well as interact and always stay in sync with the main Spotify application running on the user’s device in the background.
@@ -15,6 +15,10 @@ Pod::Spec.new do |s|
    s.ios.deployment_target = '9.0'
 
    s.source = { :git => "https://github.com/spotify/ios-sdk.git", :tag => "v#{s.version}" }
+
+   s.user_target_xcconfig = {
+		'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/SpotifyiOS/SpotifyiOS.framework"'
+	}
 
    s.source_files        = 'SpotifyiOS.framework/Versions/A/Headers/*{.h}'
    s.public_header_files = 'SpotifyiOS.framework/Versions/A/Headers/*{.h}'
